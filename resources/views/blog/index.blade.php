@@ -7,6 +7,7 @@
     <title>Blog</title>
 </head>
 <body>
+    {{ $blog }}
     
 </body>
 </html>

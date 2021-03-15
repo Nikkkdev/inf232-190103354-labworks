@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\DB;
 use App\Models\Client;
 use App\Models\Post;
-
+use App\Http\Controllers\BlogController;
 
 Route::get('/', function () {
     return view('home');
@@ -38,8 +38,5 @@ DB::table('post')->insert([
 ]);
 });
 
-Route::get('post', function(){
-    $post3 = Post::find(1);
-    return $post3;
-});
 
+Route::get('post',[BlogController::class, 'index']);
