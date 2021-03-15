@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\DB;
 use App\Models\Client;
+use App\Models\Post;
 
 
 Route::get('/', function () {
@@ -38,7 +39,7 @@ DB::table('post')->insert([
 });
 
 Route::get('post', function(){
-    $post = Post::find(1);
-    return $post;
+    $post3 = Post::find(1);
+    return $post3;
 });
 
