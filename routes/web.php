@@ -36,3 +36,9 @@ DB::table('post')->insert([
     'body' => 'aboutfirstpost'
 ]);
 });
+
+Route::get('post', function(){
+    $post = Post::find(1);
+    return $post;
+});
+
