@@ -17,15 +17,22 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
-Route::get('client/add', function(){
+/* Route::get('client/add', function(){
     DB::table('clients')->insert([
         'name' => 'Vladimir',
         'surname' => 'Putin',
         'age'=> 40
     ]);
 });
-
+*/
 Route::get('client', function(){
     $client = Client::find(1);
     return $client;
+});
+
+Route::get('post/create', function(){
+DB::table('post')->insert([
+    'title' => 'FirstPost',
+    'body' => 'aboutfirstpost'
+]);
 });
