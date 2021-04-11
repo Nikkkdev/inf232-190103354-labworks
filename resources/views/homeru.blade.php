@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Portfoolio
+        <title>Портфолио
         </title>
 
         <meta name="description" content="">
@@ -37,10 +37,9 @@
               <a href="#4" class="nav__link c-green"><img src="{{ asset('images/contact-icon.png') }}" alt=""></a>
             </li>
             <li class="nav__item">
-              <a href="/ru" class="nav__link c-blue"><img src="{{ asset('images/lang.png') }}" alt=""></a>
+              <a href="/" class="nav__link c-blue"><img src="{{ asset('images/lang.png') }}" alt=""></a>
             </li>
           </ul>
-
         </nav>
 
         <section class="panel b-blue" id="1">
@@ -51,14 +50,14 @@
                   <div class="col-md-8 col-md-offset-2">
                     <div class="home-content">
                       <div class="home-heading">
-                        <h1><em>Nurov Nurali</em></h1>
+                        <h1><em>Нуров Нурали</em></h1>
                       </div>
                       <div class="row">
                         <div class="col-md-12">
                           <div class="home-box-content">
                             <div class="left-text">
-                              <h4>I am <em>SDU</em> Information Systems Student</h4>
-                              <p>Hello everyone, my name is Nurali, I am studying at the SDU in the specialty of IS, this is my portfolio, where you can find out my interests, what I do, and so on</p>
+                              <h4>Я студент <em>SDU</em> По специальности ИС</h4>
+                              <p>Всем привет, меня зовут Нурали и это мое портфолио где вы можете узнать всякую инфу обо мне</p>
                             </div>
                             <div class="right-image">
                               <img src="{{ asset('images/mmorty.jpg') }}" alt="">
@@ -81,7 +80,7 @@
                   <div class="col-md-8 col-md-offset-2">
                     <div class="about-content">
                       <div class="heading">
-                        <h4>About me</h4>
+                        <h4>Обо мне</h4>
                       </div>
                       <div class="row">
                         <div class="col-md-12">
@@ -91,9 +90,8 @@
                         </div>
                         <div class="col-md-7 col-md-offset-5">
                           <div class="about-box-text">
-                            <h4>About me</h4>
-                            <p>I am interested in cars, this is my main hobby, which I devote a lot of time to. And I am also interested in technology,
-                               music, games, in general I want to tell a lot, but my brain after the first deadline does not want to work. </p>
+                            <h4>Обо мне</h4>
+                            <p> Тут ничего нет так как это тест локализаций </p>
                            
                           </div>
                         </div>
@@ -113,7 +111,7 @@
                   <div class="col-md-8 col-md-offset-2">
                     <div class="projects-content">
                       <div class="heading">
-                        <h4>Interests</h4>
+                        <h4>Интересы</h4>
                       </div>
                       <div class="row">
                         <div class="col-md-12">
@@ -122,8 +120,8 @@
                               <div class="project-item">
                                 <a data-lightbox="image-1"><img src="{{ asset('images/java.jpg') }}" alt=""></a>
                                 <div class="text-content">
-                                  <h4>Programming</h4>
-                                  <p>Lorem ipsum dolor, adipis scing elit etiam ante vehicula, aliquam mauris in, luctus neque.</p>
+                                  <h4>Программирование</h4>
+                                  <p>Локализация сделана для профиля и я не использовал правильную SEO структуру</p>
                                   <div class="primary-button">
                                   
                                   </div>
@@ -134,7 +132,7 @@
                               <div class="project-item">
                                 <a data-lightbox="image-1"><img src="{{ asset('images/music.jpg') }}" alt=""></a>
                                 <div class="text-content">
-                                  <h4>Music</h4>
+                                  <h4>Mузыка</h4>
                                   <p>Lorem ipsum dolor, adipis scing elit etiam ante vehicula, aliquam mauris in, luctus neque.</p>
                                   <div class="primary-button">
                                    
@@ -146,7 +144,7 @@
                               <div class="project-item">
                                 <a  data-lightbox="image-1"><img src="{{ asset('images/steam.jpg') }}" alt=""></a>
                                 <div class="text-content">
-                                  <h4>Games</h4>
+                                  <h4>Игры</h4>
                                   <p>Lorem ipsum dolor, adipis scing elit etiam ante vehicula, aliquam mauris in, luctus neque.</p>
                                   <div class="primary-button">
                                    
@@ -158,7 +156,7 @@
                               <div class="project-item">
                                 <a data-lightbox="image-1"><img src="{{ asset('images/photoshop.png') }}" alt=""></a>
                                 <div class="text-content">
-                                  <h4>Photoshop</h4>
+                                  <h4>Фото</h4>
                                   <p>Lorem ipsum dolor sit amet, adipis scing elit etiam sit amet ante vehicula, aliquam mauris in, luctus neque.</p>
                                   <div class="primary-button">
                                    
@@ -170,7 +168,7 @@
                               <div class="project-item">
                                 <a data-lightbox="image-1"><img src="{{ asset('images/tech.jpg') }}" alt=""></a>
                                 <div class="text-content">
-                                  <h4>Technology</h4>
+                                  <h4>Технологий</h4>
                                   <p>Lorem ipsum dolor, adipis scing elit etiam ante vehicula, aliquam mauris in, luctus neque.</p>
                                   <div class="primary-button">
                                 
@@ -182,7 +180,7 @@
                               <div class="project-item">
                                 <a  data-lightbox="image-1"><img src="{{ asset('images/cars.jpg') }}" alt=""></a>
                                 <div class="text-content">
-                                  <h4>Cars</h4>
+                                  <h4>Машины</h4>
                                   <p>Lorem ipsum dolor, adipis scing elit etiam ante vehicula, aliquam mauris in, luctus neque.</p>
                                   <div class="primary-button">
                                    
@@ -220,7 +218,7 @@
                   <div class="col-md-8 col-md-offset-2">
                     <div class="contact-content">
                       <div class="heading">
-                        <h4>Send message to me</h4>
+                        <h4>Отправить сообщение</h4>
                       </div>
                       <div class="row">
                         <div class="col-md-8">

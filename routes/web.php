@@ -9,6 +9,9 @@ use App\Http\Controllers\BlogController;
 Route::get('/', function () {
     return view('home');
 });
+Route::get('/ru', function () {
+    return view('homeru');
+});
 
 Route::get('/about', function () {
     return view('about');
